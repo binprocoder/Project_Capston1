@@ -3,3 +3,57 @@ body {
   font-family: 'Nunito', sans-serif !important;
   background-color: #f4f4f4;
 }
+
+.heading span {
+  font-size: 2rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.heading p {
+  font-size: 1rem;
+}
+.hr {
+  height: 2px;
+  width: 200px;
+  background-color: #0abf54;
+  margin: 0 auto;
+}
+.xem-them {
+  position: absolute;
+  width: 90px;
+  right: 5%;
+  padding-bottom: 2rem;
+}
+#admin .heading h4{
+  text-align: center;
+}
+#admin .form-control:focus{
+  box-shadow: none; 
+}
+svg{
+  vertical-align: baseline;
+}
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link{
+  border: none !important;
+}
+.ant-layout-sider{
+  min-height: 100vh;
+}
+.spin{
+  text-align: center;
+}
+#admin textarea {
+  resize: none;
+}
+.spinner-border.text-success {
+  left: -2%;
+  position: relative;
+  bottom: -10px;
+  color: #3f51b5 !important;
+}
+#error{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

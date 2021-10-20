@@ -12,6 +12,11 @@ app.get("/", (req, res) => {
 }
 )
 
+require('./Code_Tien/routes/login')(app);
+require("./Code_Tien/routes/user")(app);
+require("./Code_Tien/routes/Checkuser")(app);
+require("./Code_Tien/routes/checkemail")(app);
+
 app.use(function (err, req, res, next) {
     res.status(500).send(err)
 })

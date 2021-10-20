@@ -7,6 +7,7 @@ import { Button } from '@material-ui/core';
 import firebase from "firebase"
 import { StyledFirebaseAuth } from 'react-firebaseui'
 import { message } from 'antd'
+
 // import { checklogin, inforData } from "./inforSlice"
 import { useDispatch } from 'react-redux'
 import axios from 'axios'
@@ -72,7 +73,7 @@ function Login(props) {
                         <div className="input-group flex-nowrap">
                             <div className="input-group-prepend">
                                 <span className="input-group-text" id="addon-wrapping">
-                                    <img src={tk} className="img-login float-left" alt="" />
+                                    <img src={tk} className="img-login " alt="" />
                                 </span>
                             </div>
                             <input type="text" className="form-control" placeholder="Tài khoản" value={email} name='email' onChange={onchange} aria-label="email" aria-describedby="addon-wrapping" />
@@ -97,7 +98,7 @@ function Login(props) {
                     </form>
                     <p className="or">OR</p>
                     <div className="mxh mt-3">
-                        <Button variant="contained" color="primary" className="text-capitalize mb-3">
+                        <Button variant="contained" color="primary" className="text-capitalize mb-3 fb">
                             <i className="fab fa-facebook-f mr-4"></i> Facebook
                         </Button>
                         <Button variant="contained" color="primary" className="text-capitalize float-right mb-3 twitter">

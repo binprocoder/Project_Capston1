@@ -3,6 +3,7 @@
     background: url('./../../images/dangnhap1.jpg') center ;
     background-size: cover;
 }
+
 #login .box-login{
     width: 35%;
     margin: 0 auto;
@@ -11,9 +12,12 @@
 }
 #login .form{
   width: 100%;
+ 
 }
 #login h3{
     text-shadow: 1px 5px 10px black;
+    text-align: center;
+    font-size: 28px;
 }
 #login .form-control{
     border: none;
@@ -23,7 +27,10 @@
     color: white;
     padding: 0;
     text-shadow: 1px 1px 2px black;
-    transition: .5s;
+    transition: .5s; 
+    width: 412px;
+    margin: 13px auto;
+    height:27px;
 }
 #login .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #fff;
@@ -46,11 +53,33 @@
     border-bottom: 2px solid black;
     border-radius: 0;
 }
+a.float-right.text-light {
+    float: right;
+    color: white;
+}
+.MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #989db9;
+}
+.MuiButton-containedPrimary.fb{
+    color: #fff;
+    background-color: rgb(56, 56, 134);
+}
+label.form-check-label {
+    margin-bottom: 19px;
+    display: block;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.text-capitalize.mb-3.MuiButton-containedPrimary {
+    margin: 10px;
+}
 .img-login{
     width: 20px;
+    float: left;
+    margin:11px 2px;
 }
 .or{
-    background-color: rgb(47, 67, 179);
+    background-color: black;
     margin: 0 auto;
     width: fit-content;
     padding: .5rem;
